@@ -64,7 +64,9 @@ background-image: linear-gradient(45deg, #13d16c 0%, #FFFB7D 100%); */
     padding: 20px;
     text-align: center;
     width: 100%;
-    background: #fff;
+    background-color: #FF9A8B;
+    background-image: linear-gradient(90deg, #FF9A8B 0%, #FF6A88 55%, #FF99AC 100%);
+    
     border-radius: 10px;
     box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
     animation: slideIn 0.5s ease-in-out;
@@ -72,20 +74,23 @@ background-image: linear-gradient(45deg, #13d16c 0%, #FFFB7D 100%); */
   
   #home {
     padding: 60px 20px;
-    background: linear-gradient(135deg, #a794bc, hsl(216, 26%, 96%));
-    color: #fff;
+   
+    background-color: #FF9A8B;
+    background-image: linear-gradient(90deg, #FF9A8B 0%, #FF6A88 55%, #FF99AC 100%);
     border-radius: 10px;
   }
   
   #home h1 {
     font-size: 2.5em;
     margin-bottom: 10px;
+    color: #172519;
   }
   
   #home p {
     font-size: 1.2em;
     opacity: 1;
-    color: #e3f2fd;
+    color: black;
+    font: bold;
   }
   
   h2 {
@@ -196,7 +201,7 @@ background-image: linear-gradient(45deg, #13d16c 0%, #FFFB7D 100%); */
   
   #home {
     padding: 60px 20px;
-    background: linear-gradient(135deg, #6a11cb, #2575fc);
+    background: linear-gradient(135deg, #0cec6694, #d9dfe9);
     color: #fff;
     border-radius: 10px;
   }
@@ -299,12 +304,8 @@ background-image: linear-gradient(45deg, #13d16c 0%, #FFFB7D 100%); */
     transition: background-color 0.3s;
     animation: pulse 1.5s infinite;
   }
-  
   .profilephoto img{
     height: 120px;
     width: 130px;
     border-radius: 90px;
- 
   }
-  
-  
